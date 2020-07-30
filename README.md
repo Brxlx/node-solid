@@ -24,3 +24,15 @@
 - Criar repositórios
 
 - Criar casos de uso (como `CreateUserUseCase`)
+
+    - `CreateUserUseCase`
+    - `UserController`
+    - `UserDTO`
+
+- No repositório, criar e exportar interface de Usuário
+
+- Importar interface no `CreateUserUseCase` com os métodos prontos a serem instanciados
+
+- Setar o formato dos dados de recebimento no `Data Transfer Object_` _(DTO)_
+
+    - No _UseCase_, falar o tipo de recebimento dos dados para o DTO
