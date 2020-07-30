@@ -33,6 +33,8 @@
 
 - Importar interface no `CreateUserUseCase` com os métodos prontos a serem instanciados
 
-- Setar o formato dos dados de recebimento no `Data Transfer Object_` _(DTO)_
+- Setar o formato dos dados de recebimento no `Data Transfer Object` _(DTO)_
 
     - No _UseCase_, falar o tipo de recebimento dos dados para o DTO
+
+- Criar `providers` para comunicação com _apis_ externas, etc.
