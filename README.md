@@ -1,6 +1,6 @@
 # Projeto de API com padrões SOLID
 
-> Inicializado
+> Inicializando
 
 - Inicializar repositório em branco:
 
@@ -15,3 +15,12 @@
 - Inicializar `tsconfig.json`:
 
     `yarn tsc --init`
+
+- Criar Entidades
+    - Se for formato de classe, utilizar _generic_ `Omit` para o _id_ não ser obrigatório
+
+- Adicionar biblioteca _uuidv4_
+
+- Criar repositórios
+
+- Criar casos de uso (como `CreateUserUseCase`)
