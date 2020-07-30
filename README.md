@@ -38,3 +38,11 @@
     - No _UseCase_, falar o tipo de recebimento dos dados para o DTO
 
 - Criar `providers` para comunicação com _apis_ externas, etc.
+
+- Implementar _Controllers_ com o 'contrato' da assinatura do método de execução
+
+- Criar `implementations` em _repositories_ e _providers_
+
+- Criar `index.ts` no _CreateUser_ para implementação da função que realiza ação de enviar email
+
+- Chamar `createUserController` no _routes_ com o método _handle_
